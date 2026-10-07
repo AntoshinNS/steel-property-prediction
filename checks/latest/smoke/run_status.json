@@ -1,0 +1,17 @@
+{
+  "state": "complete",
+  "seconds": 15.774565660998633,
+  "result": {
+    "status": "computed",
+    "dataset_label": "SYNTHETIC SOFTWARE TEST — NOT STEELBENCH",
+    "families": 5,
+    "mean_delta_aurc": -3.482485898553498,
+    "median_delta_aurc": -1.7815941765829884,
+    "ci95_family_bootstrap": [
+      -7.60135334811807,
+      -0.5924255900966813
+    ],
+    "families_improved": 0,
+    "interpretation": "Positive delta favors g1. Conditional on fitted procedure and observed families; no automatic superiority claim."
+  }
+}

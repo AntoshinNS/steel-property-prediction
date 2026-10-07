@@ -1,0 +1,40 @@
+{'complete_records': 169, 'complete_grades': 51, 'complete_families': 2, 'complete_sources': {'emk_spec_verified': 169}, 'families_lt10': 5, 'families_lt20': 7, 'single_source_families': 16, 'jaccard_min': 0.5029411764705882, 'jaccard_median': 0.9191176470588235, 'jaccard_max': 0.9985294117647059}
+fold 0 done
+fold 1 done
+fold 2 done
+fold 3 done
+fold 4 done
+fold 5 done
+fold 6 done
+fold 7 done
+fold 8 done
+fold 9 done
+fold 10 done
+fold 11 done
+fold 12 done
+fold 13 done
+fold 14 done
+fold 15 done
+fold 16 done
+fold 0 done
+fold 1 done
+fold 2 done
+fold 3 done
+fold 4 done
+protocol      population          variant    n  families        mae  macro_mae
+  family             all    complete_case    1         1  16.905892  16.905892
+  family             all        drop_four 1360        17 154.536813 169.732522
+  family             all median_indicator 1360        17 149.808697 175.076279
+  family             all  original_median 1360        17 145.874873 169.424276
+   grade             all    complete_case  169         2  54.067387  61.602179
+   grade             all        drop_four 1360        17 125.765370 146.744675
+   grade             all median_indicator 1360        17 126.861832 149.293126
+   grade             all  original_median 1360        17 129.781829 150.940390
+  family complete_common    complete_case    1         1  16.905892  16.905892
+  family complete_common        drop_four    1         1  87.489538  87.489538
+  family complete_common median_indicator    1         1  69.612087  69.612087
+  family complete_common  original_median    1         1  76.038422  76.038422
+   grade complete_common    complete_case  169         2  54.067387  61.602179
+   grade complete_common        drop_four  169         2  63.563521  71.436922
+   grade complete_common median_indicator  169         2  65.335590  50.348141
+   grade complete_common  original_median  169         2  64.386761  46.955581

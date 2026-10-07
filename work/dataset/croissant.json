@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "sc": "https://schema.org/"
+  },
+  "@type": "sc:Dataset",
+  "name": "SteelBench v1.0 Open",
+  "description": "A physics-informed benchmark for predicting steel mechanical properties from chemical composition and heat treatment parameters. This open release contains 1,360 samples from public domain sources.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://github.com/steelbench/steelbench",
+  "version": "1.0",
+  "datePublished": "2026-02-04",
+  "dateModified": "2026-02-04",
+  "creator": {
+    "@type": "Organization",
+    "name": "SteelBench Team"
+  },
+  "keywords": [
+    "steel",
+    "mechanical properties",
+    "materials science",
+    "machine learning",
+    "benchmark",
+    "tensile strength",
+    "yield strength",
+    "hardenability"
+  ],
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "name": "steelbench_core_open.csv",
+      "contentUrl": "steelbench_core_open.csv",
+      "encodingFormat": "text/csv",
+      "sha256": ""
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "name": "samples",
+      "description": "Steel samples with composition, heat treatment, and mechanical properties",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "name": "heat_id",
+          "dataType": "sc:Text",
+          "description": "Unique sample identifier"
+        },
+        {
+          "@type": "cr:Field",
+          "name": "grade_id",
+          "dataType": "sc:Text",
+          "description": "Steel grade designation"
+        },
+        {
+          "@type": "cr:Field",
+          "name": "C",
+          "dataType": "sc:Float",
+          "description": "Carbon content (wt%)"
+        },
+        {
+          "@type": "cr:Field",
+          "name": "Mn",
+          "dataType": "sc:Float",
+          "description": "Manganese content (wt%)"
+        },
+        {
+          "@type": "cr:Field",
+          "name": "Si",
+          "dataType": "sc:Float",
+          "description": "Silicon content (wt%)"
+        },
+        {
+          "@type": "cr:Field",
+          "name": "Cr",
+          "dataType": "sc:Float",
+          "description": "Chromium content (wt%)"
+        },
+        {
+          "@type": "cr:Field",
+          "name": "Ni",
+          "dataType": "sc:Float",
+          "description": "Nickel content (wt%)"
+        },
+        {
+          "@type": "cr:Field",
+          "name": "Mo",
+          "dataType": "sc:Float",
+          "description": "Molybdenum content (wt%)"
+        },
+        {
+          "@type": "cr:Field",
+          "name": "tensile_strength",
+          "dataType": "sc:Float",
+          "description": "Ultimate tensile strength (MPa)"
+        },
+        {
+          "@type": "cr:Field",
+          "name": "yield_strength",
+          "dataType": "sc:Float",
+          "description": "Yield strength (MPa)"
+        },
+        {
+          "@type": "cr:Field",
+          "name": "data_tier",
+          "dataType": "sc:Text",
+          "description": "Data provenance tier"
+        }
+      ]
+    }
+  ],
+  "rai:dataCollection": "Data aggregated from public technical specifications (EMK handbook), government research databases (NIMS Japan), and open Kaggle datasets.",
+  "rai:dataCollectionType": "Compilation from existing sources",
+  "rai:personalSensitiveInformation": "None - dataset contains only steel material properties",
+  "rai:dataBiases": "Specification data (EMK tier) contains minimum values, not actual measurements. This creates distribution shift vs measured data."
+}

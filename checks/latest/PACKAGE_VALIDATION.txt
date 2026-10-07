@@ -1,0 +1,74 @@
+COMMAND python work/code/steelbench_research/verify_saved.py work/real_run/results_uts_fast
+Saved split boundaries, ensemble means, SHAP additivity, and full-retention equality: PASS
+
+COMMAND python -m unittest discover -s work/code/steelbench_research -p test_experiment.py
+........
+----------------------------------------------------------------------
+Ran 8 tests in 0.102s
+
+OK
+
+COMMAND python work/revision_checks.py
+{
+  "status": "PASS",
+  "records": 1360,
+  "grades": 562,
+  "families": 17,
+  "units": 683,
+  "target_summary": {
+    "min": 220.0,
+    "max": 1970.0,
+    "median": 650.0,
+    "sample_sd": 232.2122104674768
+  },
+  "raw_sha256": "c95a119978703b50488381924f3a4932eee82f8305123c90d0b01a7ade0f3c2f",
+  "analysis_sha256": "94da50e64669d0e65bee4ddb99ccb26efdc7e874389982b1812a45803831aab0",
+  "analysis_unit_reconstruction_exact": true,
+  "raw_columns_unchanged": true,
+  "boundaries_checked": 117,
+  "outer_folds": 30,
+  "exact_repeated_signatures": 325,
+  "rows_in_repeated_signatures": 1114,
+  "cross_grade_signatures": 68,
+  "rows_in_cross_grade_signatures": 366,
+  "cross_family_or_source_signatures": 2,
+  "rows_in_cross_family_or_source_signatures": 9,
+  "complete_case_records": 169,
+  "complete_case_grades": 51,
+  "complete_case_families": {
+    "low_alloy_normalized": 168,
+    "stainless_martensitic": 1
+  },
+  "complete_case_sources": {
+    "emk_spec_verified": 169
+  },
+  "families_lt10": 5,
+  "families_lt20": 7,
+  "singletons": 3,
+  "single_source_families": 16,
+  "training_jaccard_min_median_max": [
+    0.5029411764705882,
+    0.9191176470588235,
+    0.9985294117647059
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3"
+  }
+}
+          test_rows  test_rows_matching_training_input
+protocol                                              
+family         1360                                  9
+grade          1360                                334
+random         1360                                327
+source         1360                                  9
+
+
+Public-package CSV reconstruction: EXACT MATCH for 1,360 records and 683 derived units.
+Documentation paths, citation metadata, all JSON files and measured dataset counts: PASS.
+All 170 retained source artifacts, including all seven original Python files: byte-identical.

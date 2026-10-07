@@ -1,0 +1,13 @@
+test_all_group_splits (test_experiment.ProtocolTests.test_all_group_splits) ... ok
+test_known_retention_arithmetic (test_experiment.ProtocolTests.test_known_retention_arithmetic) ... ok
+test_linear_shap_has_known_solution (test_experiment.ProtocolTests.test_linear_shap_has_known_solution) ... ok
+test_missing_and_duplicate_schema_failures (test_experiment.ProtocolTests.test_missing_and_duplicate_schema_failures) ... ok
+test_pairwise_interaction_antithetic_value (test_experiment.ProtocolTests.test_pairwise_interaction_antithetic_value) ... ok
+test_source_unit_leak_fails (test_experiment.ProtocolTests.test_source_unit_leak_fails) ... ok
+test_target_not_used_in_outer_diagnostics (test_experiment.ProtocolTests.test_target_not_used_in_outer_diagnostics) ... ok
+test_ties_do_not_use_targets_or_row_order (test_experiment.ProtocolTests.test_ties_do_not_use_targets_or_row_order) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.089s
+
+OK

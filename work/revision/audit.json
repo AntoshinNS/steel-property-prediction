@@ -1,0 +1,14 @@
+{
+  "complete_records": 169,
+  "complete_grades": 51,
+  "complete_families": 2,
+  "complete_sources": {
+    "emk_spec_verified": 169
+  },
+  "families_lt10": 5,
+  "families_lt20": 7,
+  "single_source_families": 16,
+  "jaccard_min": 0.5029411764705882,
+  "jaccard_median": 0.9191176470588235,
+  "jaccard_max": 0.9985294117647059
+}

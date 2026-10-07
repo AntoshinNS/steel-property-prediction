@@ -1,0 +1,31 @@
+random fold 0: train=60 test=15
+random fold 1: train=60 test=15
+random fold 2: train=60 test=15
+random fold 3: train=60 test=15
+random fold 4: train=60 test=15
+grade fold 0: train=60 test=15
+grade fold 1: train=60 test=15
+grade fold 2: train=60 test=15
+grade fold 3: train=60 test=15
+grade fold 4: train=60 test=15
+family fold 0: train=60 test=15
+family fold 1: train=60 test=15
+family fold 2: train=60 test=15
+family fold 3: train=60 test=15
+family fold 4: train=60 test=15
+source fold 0: train=45 test=30
+source fold 1: train=45 test=30
+source fold 2: train=60 test=15
+{
+  "status": "computed",
+  "dataset_label": "SYNTHETIC SOFTWARE TEST — NOT STEELBENCH",
+  "families": 5,
+  "mean_delta_aurc": -3.482485898553498,
+  "median_delta_aurc": -1.7815941765829884,
+  "ci95_family_bootstrap": [
+    -7.60135334811807,
+    -0.5924255900966813
+  ],
+  "families_improved": 0,
+  "interpretation": "Positive delta favors g1. Conditional on fitted procedure and observed families; no automatic superiority claim."
+}

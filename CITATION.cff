@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: Please cite this computational supplement and the upstream SteelBench dataset when using this
+  package.
+type: software
+title: 'SteelBench Research Supplement: Generalization and Attribution Value Across Unseen Grades and
+  Families'
+version: '1.0'
+authors:
+- family-names: Pyatetsky
+  given-names: Valery E.
+  affiliation: Department of Business Informatics and Production Management Systems, National University
+    of Science and Technology MISIS
+- family-names: Antoshin
+  given-names: Nikita S.
+  affiliation: Department of Business Informatics and Production Management Systems, National University
+    of Science and Technology MISIS
+- family-names: Vinokurov
+  given-names: Maksim S.
+  affiliation: Department of Business Informatics and Production Management Systems, National University
+    of Science and Technology MISIS
+- family-names: Zinin
+  given-names: Alexander A.
+  affiliation: Department of Business Informatics and Production Management Systems, National University
+    of Science and Technology MISIS
+- family-names: Zakorko
+  given-names: Alexander V.
+  affiliation: Department of Business Informatics and Production Management Systems, National University
+    of Science and Technology MISIS
+- family-names: Kirchu
+  given-names: Ksenia P.
+  affiliation: Department of Business Informatics and Production Management Systems, National University
+    of Science and Technology MISIS
+  email: kirchu.kp@misis.ru
+license: MIT
+keywords:
+- steel
+- ultimate tensile strength
+- Shapley values
+- selective regression
+- grouped evaluation
+abstract: Data, analysis software, fixed configurations, saved predictions and attributions, preprocessing
+  controls, figures and verification evidence accompanying a study of steel UTS generalization and the
+  diagnostic value of attribution spread. The analysis data contain 1,360 records, 562 supplied grade
+  identifiers, 17 families and 683 derived split units. The software license is MIT; data and research-output
+  licensing are documented separately in LICENSING.md.

@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3"
+  },
+  "code_sha256": "24d2aaa37b93858ac72a5d0e0b1b9f5ed8511f23a6b06ce6b5bbe062af56676d"
+}

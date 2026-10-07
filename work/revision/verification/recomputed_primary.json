@@ -1,0 +1,9 @@
+{
+  "mean_delta_aurc": 4.277404158263354,
+  "median_delta_aurc": 0.0,
+  "ci95_family_bootstrap": [
+    -0.4786782034714322,
+    9.84477954244799
+  ],
+  "families_improved": 5
+}
